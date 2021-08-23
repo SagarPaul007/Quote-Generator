@@ -16,12 +16,8 @@ body {
 
 #container {
     padding: 20px;
-    position: absolute;
     width: 100%;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    min-height: 100%;
 }
 
 .field {
@@ -38,7 +34,7 @@ body {
 
 .input {
     width: 60%;
-    margin: 10px 20px 0 0;
+    margin: 30px 20px 0 0;
     font-size: 18px;
     padding: 5px 10px;
     border: none;
@@ -59,14 +55,9 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 100px 0 50px 0;
 }
 
-.heading {
-    font-size: 100px;
-    color: rgb(255, 111, 111);
-    text-align: center;
-}
 
 .quote {
     border: 1px solid transparent;
